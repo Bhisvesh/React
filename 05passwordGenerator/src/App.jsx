@@ -5,7 +5,6 @@ function App() {
   const [numberAllowed, setNumberAllowed] = useState(false);
   const [charAllowed, setCharAllowed] = useState(false);
   const [password, setPassword] = useState("");
-  
 
   // useRef hook
   const passwordRef = useRef(null);
@@ -57,7 +56,6 @@ function App() {
               copyPasswordToClipboard();
             }}
             className={`outline-none bg-blue-700 hover:bg-blue-800 text-white py-0.5 px-3 shrink-0.5 cursor-pointer transition-colors duration-200`}
-              
           >
             copy
           </button>
